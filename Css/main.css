@@ -215,9 +215,11 @@ h3 {
     width: 40% !important;
     margin-bottom: -10px;
   }
-
+  .head a:first-child{
+    margin-top: 30px !important;
+  }
   .head a{
-    margin-top: 10px;
+    margin-top: 2px !important;
   }
 
 
@@ -270,17 +272,21 @@ h3 {
 
 
 
-
-
 /* Start Section 2 */
 
 .build {
   padding: 100px 0 250px 0;
   position: relative;
   background-color: #f7f4f4;
-  z-index: -1;
+  z-index: 99;
 }
 
+.build .item_contanier{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .build .img {
   position: relative;
   margin-top: 20px;
@@ -355,6 +361,11 @@ h3 {
   font-weight: 700;
 }
 
+.build .item input:focus ~ .btn{
+  padding: 25px 25px;
+  line-height: 2px;
+}
+
 .build .item .btn:hover {
   background-color: red;
 }
@@ -380,6 +391,7 @@ h3 {
   margin-right: 10px;
   font-weight: 600;
 }
+
 
 @media (max-width: 768px) {
   .build {
@@ -415,10 +427,16 @@ h3 {
     margin-top: 10px;
     margin-left: 30px;
     border-radius: 5px;
+    width: 97.5%;
   }
 
   .build .item .icons span {
     font-size: 10px;
+  }
+
+  .build .item input:focus ~ .btn{
+    padding: 0 25px;
+    line-height: 0;
   }
 }
 
@@ -428,39 +446,48 @@ h3 {
     position: relative;
   }
 
-  .build .img1 {
-    width: 100%;
+  .build .item_contanier{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .build .item_contanier .item1{
+  order: 2;
+  }
+  
+  .build .img {
+    position: relative;
+    margin: -70px auto 40px !important;
+    z-index: 0;
   }
 
-  .build .shape1 {
+
+
+  .build .shape1,.shape2 {
     display: none;
   }
 
-  .build .shape2 {
-    display: none;
-  }
-
-  .build .item {
-    margin-top: 10px;
-  }
 
   .build .item h1 {
     font-size: 28px;
   }
 
-  .build .item input {
+  .build .item input , .build .item .btn {
     width: 100%;
     border-radius: 5px;
   }
 
-  .build .item .btn {
-    width: 100%;
-    border-radius: 5px;
-  }
+
 }
 
-/*  Start Section3  */
 
+
+/*  Start Section3  */
+.inside{
+  position: relative;
+  z-index: 100;
+}
 .inside .item {
   border: 1px solid #e2e0e0;
   background: #ffffff;
