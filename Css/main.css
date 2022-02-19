@@ -69,6 +69,7 @@ h3 {
   line-height: 50px;
   border-radius: 50%;
   background-color: #ff1f59;
+  z-index: 1000;
   transition: all 0.3s ;
 }
 .scroll i {
