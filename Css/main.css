@@ -10,7 +10,8 @@
   font-family: "Nunito Sans", sans-serif;
 }
 
-body , html {
+body,
+html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -39,11 +40,9 @@ html::-webkit-scrollbar-thumb:hover {
   border-radius: 10px;
 }
 
-html::-webkit-scrollbar-track{
+html::-webkit-scrollbar-track {
   background-color: #ddd;
 }
-
-
 
 a {
   text-decoration: none;
@@ -70,14 +69,14 @@ h3 {
   border-radius: 50%;
   background-color: #ff1f59;
   z-index: 1000;
-  transition: all 0.3s ;
+  transition: all 0.3s;
 }
 .scroll i {
   color: #fff;
   font-size: 22px;
   margin-left: 16px;
 }
-.scroll:hover{
+.scroll:hover {
   background-color: #ffae0c;
 }
 
@@ -192,9 +191,6 @@ h3 {
   background-color: rgb(206, 66, 16);
 }
 
-
-
-
 @media (max-width: 768px) {
   .head img {
     width: 20% !important;
@@ -202,11 +198,10 @@ h3 {
   }
 
   .head .icons {
-
     margin: 25px 0 25px 9px;
   }
 
-  .head a{
+  .head a {
     margin-top: 30px;
   }
 }
@@ -216,21 +211,17 @@ h3 {
     width: 40% !important;
     margin-bottom: -10px;
   }
-  .head a:first-child{
+  .head a:first-child {
     margin-top: 30px !important;
   }
-  .head a{
+  .head a {
     margin-top: 2px !important;
   }
-
-
 }
-
-
 
 /* Jquery On Navbar */
 
-.head2{
+.head2 {
   position: fixed;
   top: -75px;
   transform: translateY(75px);
@@ -243,19 +234,17 @@ h3 {
   padding: 10px 20px;
 }
 
-
-@media (max-width : 768px) {
-  .head2{
+@media (max-width: 768px) {
+  .head2 {
     height: auto;
   }
   .head2 img {
     width: 13%;
     margin-top: -20px;
   }
-
 }
-@media (max-width : 600px) {
-  .head2{
+@media (max-width: 600px) {
+  .head2 {
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -265,13 +254,11 @@ h3 {
     width: 40% !important;
     margin-top: -20px;
   }
-  .head2 button{
+  .head2 button {
     position: relative;
     top: 0;
   }
 }
-
-
 
 /* Start Section 2 */
 
@@ -282,7 +269,7 @@ h3 {
   z-index: 99;
 }
 
-.build .item_contanier{
+.build .item_contanier {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -362,7 +349,7 @@ h3 {
   font-weight: 700;
 }
 
-.build .item input:focus ~ .btn{
+.build .item input:focus ~ .btn {
   padding: 25px 25px;
   line-height: 2px;
 }
@@ -392,7 +379,6 @@ h3 {
   margin-right: 10px;
   font-weight: 600;
 }
-
 
 @media (max-width: 768px) {
   .build {
@@ -435,7 +421,7 @@ h3 {
     font-size: 10px;
   }
 
-  .build .item input:focus ~ .btn{
+  .build .item input:focus ~ .btn {
     padding: 0 25px;
     line-height: 0;
   }
@@ -447,45 +433,39 @@ h3 {
     position: relative;
   }
 
-  .build .item_contanier{
+  .build .item_contanier {
     display: flex;
     flex-direction: column;
-  
   }
-  
-  .build .item_contanier .item1{
-  order: 2;
+
+  .build .item_contanier .item1 {
+    order: 2;
   }
-  
+
   .build .img {
     position: relative;
     margin: -70px auto 40px !important;
     z-index: 0;
   }
 
-
-
-  .build .shape1,.shape2 {
+  .build .shape1,
+  .shape2 {
     display: none;
   }
-
 
   .build .item h1 {
     font-size: 28px;
   }
 
-  .build .item input , .build .item .btn {
+  .build .item input,
+  .build .item .btn {
     width: 100%;
     border-radius: 5px;
   }
-
-
 }
 
-
-
 /*  Start Section3  */
-.inside{
+.inside {
   position: relative;
   z-index: 100;
 }
@@ -1997,7 +1977,6 @@ h3 {
 .can .item .prog .prog1 span {
   text-align: end;
   margin-right: 15px;
-
 }
 
 .can .item .prog .prog2 span {
@@ -2010,8 +1989,6 @@ h3 {
   margin-right: 15px;
 }
 
-
-
 .can .item .prog .prog1 {
   background-color: #01bca7;
   height: 15px;
@@ -2020,13 +1997,19 @@ h3 {
 }
 
 @keyframes prog1 {
-  0%{width: 0%;};
-  50%{width: 30%;};
-  70%{width: 70%;};
-  100%{width: 100%;};
-
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 30%;
+  }
+  70% {
+    width: 70%;
+  }
+  100% {
+    width: 100%;
+  }
 }
-
 
 .can .item .prog .prog2 {
   background-color: #fccb54;
@@ -2036,11 +2019,18 @@ h3 {
 }
 
 @keyframes prog2 {
-  0%{width: 0%;};
-  50%{width: 30%;};
-  70%{width: 70%;};
-  100%{width: 100%;};
-
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 30%;
+  }
+  70% {
+    width: 70%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 .can .item .prog .prog3 {
@@ -2051,11 +2041,18 @@ h3 {
 }
 
 @keyframes prog3 {
-  0%{width: 0%;};
-  50%{width: 30%;};
-  70%{width: 70%;};
-  100%{width: 100%;};
-
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 30%;
+  }
+  70% {
+    width: 70%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
