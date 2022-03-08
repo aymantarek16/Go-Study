@@ -80,7 +80,7 @@ h3 {
   background-color: #ffae0c;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .scroll {
     bottom: 30px;
     right: 50px;
@@ -191,7 +191,7 @@ h3 {
   background-color: rgb(206, 66, 16);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .head img {
     width: 20% !important;
     margin-bottom: -20px;
@@ -234,7 +234,7 @@ h3 {
   padding: 10px 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .head2 {
     height: auto;
   }
@@ -380,7 +380,7 @@ h3 {
   font-weight: 600;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .build {
     padding-bottom: 120px;
     position: relative;
@@ -495,7 +495,7 @@ h3 {
   color: #333333;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .inside .item {
     top: -50%;
     left: -7px;
@@ -722,7 +722,7 @@ h3 {
   background-color: rgb(206, 66, 16);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .choose .card {
     margin-top: 30px;
   }
@@ -871,7 +871,7 @@ h3 {
 .background .flexible .btn:hover {
   background-color: rgb(206, 66, 16);
 }
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .background {
     height: 65vh;
     background-size: cover;
@@ -979,7 +979,7 @@ h3 {
   line-height: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .learn .item {
     margin-left: 10px;
   }
@@ -1081,7 +1081,7 @@ h3 {
   visibility: hidden;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .access img {
     width: 100%;
   }
@@ -1146,7 +1146,7 @@ h3 {
   line-height: 2.2;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .cate .item h2 {
     font-size: 15px;
   }
@@ -1334,7 +1334,7 @@ h3 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .become .item {
     width: 50%;
     position: relative;
@@ -1541,7 +1541,7 @@ h3 {
 .photo .image img {
   padding: 80px 80px;
 }
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .photo .text {
     text-align: center;
   }
@@ -1622,7 +1622,7 @@ h3 {
   background-color: rgb(206, 66, 16);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .start {
     background-color: #f8faff;
     width: 80%;
@@ -2055,7 +2055,7 @@ h3 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .can .image img {
     margin-top: 30px;
   }
@@ -2324,7 +2324,7 @@ h3 {
 .photo7 .image img {
   padding: 50px 80px;
 }
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .photo7 .text {
     text-align: center;
   }
